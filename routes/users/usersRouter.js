@@ -16,5 +16,4 @@ router.post('/create-user', checkIsEmpty, validateCreateData, createUser);
 
 router.post('/login', checkIsEmpty, validateLoginData, userLogin);
 
-
 module.exports = router;
